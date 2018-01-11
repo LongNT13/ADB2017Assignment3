@@ -1,0 +1,3 @@
+db.catalog.find({
+	"CD.YEAR" : {$gt: 1983}
+})
