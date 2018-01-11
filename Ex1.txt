@@ -1,0 +1,3 @@
+for $x in /CATALOG/CD
+where $x/YEAR > 1983
+return $x/TITLE
