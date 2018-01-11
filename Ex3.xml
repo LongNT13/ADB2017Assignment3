@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteMove>
+	<ProfileToken>profile</ProfileToken>
+	<Position>
+		<Pantilt x="10" y="10"></Pantilt>
+		<Zoom x="20"></Zoom>
+	</Position>
+</AbsoluteMove>

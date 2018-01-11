@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE AbsoluteMove[
+	<!ELEMENT AbsoluteMove (ProfileToken,Position)>
+	<!ELEMENT ProfileToken (#PCDATA)>
+	<!ELEMENT Position (Pantilt,Zoom)>
+	<!ELEMENT Pantilt EMPTY>
+	<!ATTLIST Pantilt x CDATA #REQUIRED y CDATA #REQUIRED>
+	<!ELEMENT Zoom EMPTY>
+	<!ATTLIST Zoom x CDATA #REQUIRED> 
+]>
